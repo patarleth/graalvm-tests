@@ -8,6 +8,10 @@ docker
 
 ./build.sh
 
+## run later after building
+
+docker run --rm -t -i graalvm-tests /opt/lib.sh
+
 ### winning
 
 java

@@ -28,6 +28,11 @@ This will pull up a bash prompt running in the graalvm-tests container.
 
 ## notes
 
+    java never started faster
+    c and cpp work flawlessly
+    plain old node is perfect
+    node with --jvm startup time is very slow. 1+ seconds but works flawlessly
+    
 ### winning
 
     java

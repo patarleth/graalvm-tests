@@ -6,11 +6,11 @@
 
 ## build
 
-    ./build.sh
+    $ ./build.sh
 
 ## run later after building
 
-    docker run --rm -t -i graalvm-tests /opt/lib.sh
+    $ docker run --rm -t -i graalvm-tests /opt/lib.sh
 
 This will pull up a bash prompt running in the graalvm-tests container. 
 

@@ -15,7 +15,10 @@ ADD src/main/rust /opt/rust
 # RUN rustc --emit=llvm-bc hello-rust.rs
 
 ADD src/main/bash/lib.sh /opt/lib.sh
-RUN source /opt/lib.sh
+ADD src/main/bash/go_requirements.sh /opt/go_requirements.sh
+ADD src/main/bash/install_go.sh /opt/install_go.sh
+
+RUN /opt/go_requirements.sh
 
 ADD src/main/c /opt/c
 WORKDIR /opt/c
@@ -33,3 +36,4 @@ RUN javac -d /opt/classes/. /opt/java/*.java
 ADD src/main/js /opt/js
 
 WORKDIR /opt
+

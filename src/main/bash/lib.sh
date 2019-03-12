@@ -53,4 +53,9 @@ export -f compile_rust
 
 export LIB_SCRIPT_DIR
 
+echo if you would like to play with golang in graal run
+echo /opt/bash/install_go.sh
+echo
+echo THEN go get some coffee while it builds
+
 bash -l

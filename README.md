@@ -2,11 +2,11 @@
 
 ## reqs
 
-docker
+    docker
 
 ## build
 
-./build.sh
+    ./build.sh
 
 ## run later after building
 
@@ -30,13 +30,13 @@ This will pull up a bash prompt running in the graalvm-tests container.
 
 ### winning
 
-java
-c
-cpp
-javascript without jvm 
-javascript WITH jvm
-
+    java
+    c
+    cpp
+    javascript without jvm 
+    javascript WITH jvm
+    
 ### fails 
 
-rust
-golang
+    rust
+    golang
